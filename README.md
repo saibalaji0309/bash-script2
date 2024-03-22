@@ -18,4 +18,19 @@ git config --global user.name "Saibalaji****"
 
 if u want it default don't mention --global both  case
 
+# how to  open a folder on vscode with command
+
+....
+   
+   $ code folderName 
+
+......
+
+
+
+
+
+
+
+
 
