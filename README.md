@@ -14,7 +14,7 @@ git push
 # if u get trouble the use this
 
 git config --global user.email "jallipallisai***@gmail.com"
-git config --global user.name "Saibalaji0309"
+git config --global user.name "Saibalaji****"
 
 if u want it default don't mention --global both  case
 
