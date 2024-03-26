@@ -23,7 +23,7 @@ if u want it default don't mention --global both  case
 ....
    
    $ code folderName 
-
+ hii boys
 ......
 
 
