@@ -26,6 +26,9 @@ if u want it default don't mention --global both  case
  hii boys
 ......
 
+# i'm starting again on 7/6/2024
+
+today here we echo
 
 
 
