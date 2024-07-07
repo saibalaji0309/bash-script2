@@ -22,4 +22,10 @@ echo "print the value of mama: $mama"
 
 # this is the main draw-back where the variable is not declered but it giving as null value
 
+DATE='07JUNE2024'  #hardcoding
+echo -e 'today date $date'
+ 
+#  if u executive after a day it won't be change but in a record of something the date should be
+#  day by day 
+# we do command that feact the system date and place there
 
