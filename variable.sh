@@ -19,3 +19,7 @@ echo "print the value of a $a"
 
 # q)  when to try to print the value that does not defined before what will happen?
 echo "print the value of mama: $mama"
+
+# this is the main draw-back where the variable is not declered but it giving as null value
+
+
