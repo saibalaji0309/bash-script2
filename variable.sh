@@ -11,7 +11,7 @@ x=afsd
 
 echo a
 echo $a
-echo 'print the value of a $a'
+echo "print the value of a $a"
 
 # did find the difference b/w above two satatements 
 # 1--> give : a
