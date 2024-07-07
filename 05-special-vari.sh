@@ -12,4 +12,4 @@ echo "Executed Script Name is : $0"
 echo "name of the newly launched ev-bike : $1"
 echo "What is treding topic on instgram : $2"
 # this $1 and $2 are the argumnets you can pass after the file name like
-bash 05-special-vari.sh Ntorch "Prabhash sign a new movie"
+# bash 05-special-vari.sh Ntorch "Prabhash sign a new movie"
