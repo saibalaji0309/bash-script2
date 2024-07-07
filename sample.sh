@@ -18,3 +18,6 @@ echo -e sai\nBalaji #--this doesn't return in new line because
 # here '-e' stands for enable the escape character
 # the error is be we didn't put the characters in quotation's
 echo -e 'sai\nBalaji'
+
+# \t tape space 
+echo -e 'mama\tvadu\tra'
