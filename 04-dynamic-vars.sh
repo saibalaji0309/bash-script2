@@ -8,3 +8,5 @@ echo "Todays date is $DATE"
 act=$(who | wc -l)
 
 echo "Total active server $act"
+
+echo "Total active server \e[32m $act \e[0m"
