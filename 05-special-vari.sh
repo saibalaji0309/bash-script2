@@ -15,6 +15,14 @@ echo "What is treding topic on instgram : $2"
 # bash 05-special-vari.sh Ntorch "Prabhash sign a new movie"
 
 
-Q) i want arguments after 10 also?
+# Q) i want arguments after 10 also?
 # bash scriptname.sh arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10........
 # at arg10 --> this is considered as a arg1 --> this is know as paddiling
+
+echo $$  #$$ is going to print the PID of the current proces
+echo $#  #$# is going to print the number of argumners
+echo $?  #$? is goinh to print the exit code of the last command
+
+# $*
+# $@
+
