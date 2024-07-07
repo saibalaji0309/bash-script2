@@ -4,3 +4,14 @@
 echo welcom to bash scripting Mr.
 echo sai balaji
 echo checking the alias value gp wher in vs we make git add,....git push and then in xshell we given alias = 'git pull'
+
+
+#insted of writig all echo or printing sepeately we use 'special charater'or 'escape characters'
+# escape charater or special charater
+#\n : this indicate the next line 
+# sai\nBalaji
+# out:
+# sai
+# Balaji
+
+echo -e sai\nBalaji
