@@ -18,4 +18,4 @@ echo 'print the value of a $a'
 # 2--> give value of a : 10
 
 # q)  when to try to print the value that does not defined before what will happen?
-echo 'print the value of mama: $mama'
+echo "print the value of mama: $mama"
