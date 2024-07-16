@@ -15,3 +15,9 @@
 
 # f
 
+sample(){
+    echo "hi sai"
+}
+sample 
+echo sample is complted 
+sample
