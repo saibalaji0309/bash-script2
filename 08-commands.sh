@@ -15,9 +15,14 @@
 
 # f
 
-sample(){
-    echo "hi sai"
+# sample(){
+#     echo "hi sai"
+# }
+# sample 
+# echo sample is complted 
+# sample
+
+stat(){
+    echo "number of sesssions opend are $(who |wc -l)"
+    echo "Todays date is : $(Date +%F)"
 }
-sample 
-echo sample is complted 
-sample
