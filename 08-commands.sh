@@ -27,3 +27,8 @@ stat(){
     echo "Todays date is : $(date +%F)"
 }
 stat
+sleep 1 # sllep for 1 sec
+stat 
+sleep 2
+stat
+sleep 30
