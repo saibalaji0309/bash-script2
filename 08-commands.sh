@@ -43,4 +43,4 @@ stat(){
     echo "Todays date is : $(date +%F)"
     hai
 }
-stat()
+stat
