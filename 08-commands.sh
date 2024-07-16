@@ -22,13 +22,24 @@
 # echo sample is complted 
 # sample
 
+# stat(){
+#     echo "number of sesssions opend are $(who |wc -l)"
+#     echo "Todays date is : $(date +%F)"
+# }
+# stat
+# sleep 1 # sllep for 1 sec
+# stat 
+# sleep 2
+# stat
+# sleep 30
+
+hai(){
+    echo "staring this hai function"
+    echo "mama eyyuuu"
+}
+
 stat(){
     echo "number of sesssions opend are $(who |wc -l)"
     echo "Todays date is : $(date +%F)"
+    hai
 }
-stat
-sleep 1 # sllep for 1 sec
-stat 
-sleep 2
-stat
-sleep 30
