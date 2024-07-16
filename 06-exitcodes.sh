@@ -8,4 +8,4 @@
 # $? u get 2 : this is u run the commend for 2 times
 echo $? 
 echo $# # number of arguments 
-echo $$
+echo $$ #print the pid of the current process
