@@ -41,6 +41,9 @@ hai(){
 stat(){
     echo "number of sesssions opend are $(who |wc -l)"
     echo "Todays date is : $(date +%F)"
+    echo "Average utilazation in last 5 min $(uptime |awk -F : '{print $NF}' | awk -F , '{print $2}')"
+
+
     hai
 }
 stat
