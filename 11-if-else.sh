@@ -7,24 +7,24 @@ if condition are of 3 types:
         3)else if
 
 if
-if [expression]; then
+if [ expression ]; then
     command
 fi
 # if else
-if [[expresion]; then 
+if [ expresion ]; then 
     command1
 else 
     command2
 
 else-if
 
-if [expression1]; then
+if [ expression1 ]; then
     command1
-elif [expression2]; then
+elif [ expression2 ]; then
     command2
-elif [expression3]; then
+elif [ expression3 ]; then
     command3
-elif [expression4]; then
+elif [ expression4 ]; then
     command4
 else
     command5
