@@ -24,7 +24,4 @@ case $action in
     restart)
         echo "Starting the Payment Server"
         ;;
-
-
-
 esac
