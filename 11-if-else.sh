@@ -52,9 +52,22 @@ comment
 
 # if condition 
 
-echo "Demo of if usage"
+# echo "Demo of if usage"
+# inp=$1
+# if [ "$inp" == "start" ]; then
+#     echo -e "\e[32m Starting the Payment Server \e[0m"
+#     exit 0
+# fi
+
+
+
+echo "Demo of if-else usage"
 inp=$1
 if [ "$inp" == "start" ]; then
     echo -e "\e[32m Starting the Payment Server \e[0m"
     exit 0
+else
+    echo -e " \e[31m please enter a valid input \e[0m"
+    echo -e "\e[35m use case: \e[0m \n \t \e[36m bash 10-conditional.sh start \e[0m"
+    exit 4
 fi
