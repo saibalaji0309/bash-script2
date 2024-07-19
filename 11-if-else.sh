@@ -49,6 +49,18 @@ comment
 # 3   !=   (not-equals)
 
 
+# operators on files
+# there are lots of commmands for file once check it
+
+# [ -f Fille ]  --> true if the file is exist and it is a regular-file
+# [ -d xyz ]    --> true if the file is exist and it is a directory
+# [ -z $var ]     --> this is true if there is no data
+# [ -n $var ]     --> this is true if it having any data
+
+
+
+
+
 
 
 
@@ -92,3 +104,6 @@ else
     echo -e "\e[35m use case: \e[0m \n \t \e[36m bash 10-conditional.sh start \e[0m"
     exit 3
 fi
+
+
+
