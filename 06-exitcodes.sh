@@ -9,3 +9,8 @@
 echo $? 
 echo $# # number of arguments 
 echo $$ #print the pid of the current process
+
+
+# for debugging exitcodes usefull too
+exit 1
+echo hai
