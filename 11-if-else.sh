@@ -63,16 +63,32 @@ comment
 
 
 
+# echo "Demo of if-else usage"
+# inp=$1
+# if [ "$inp" == "start" ]; then
+#     echo -e "\e[32m Starting the Payment Server \e[0m"
+#     exit 0
+# else
+#     echo -e " \e[31m please enter a valid input \e[0m"
+#     echo -e "\e[35m use case: \e[0m \n \t \e[36m bash 10-conditional.sh start \e[0m"
+#     exit 1
+# fi
+
+
+
 echo "Demo of if-else usage"
 inp=$1
 if [ "$inp" == "start" ]; then
     echo -e "\e[32m Starting the Payment Server \e[0m"
     exit 0
+elif [ "$inp" == "restart" ]
+    echo -e "\e[32m RESucessfully Payment is Done \e[0m"
+    exit 1
+elif [ "$inp" == "stop" ]
+    echo -e "\e[31m stop the Payment server \e[0m"
+    exit 1
 else
     echo -e " \e[31m please enter a valid input \e[0m"
     echo -e "\e[35m use case: \e[0m \n \t \e[36m bash 10-conditional.sh start \e[0m"
-    exit 1
+    exit 2
 fi
-
-
-
