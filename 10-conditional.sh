@@ -12,7 +12,7 @@
 # esac
 
 
-action=start
+action=$1
 
 case $action in
     start) 
