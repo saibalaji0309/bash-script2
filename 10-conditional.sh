@@ -26,5 +26,5 @@ case $action in
         ;;
     *)
         echo "please enter a valid input"
-        echo "use case: bash 10-conditional.sh start"
+        echo -e "use case: \n \tbash 10-conditional.sh start"
 esac
