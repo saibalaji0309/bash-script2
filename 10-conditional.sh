@@ -22,6 +22,9 @@ case $action in
         echo "Sucessfully Payment is Done"
         ;;
     restart)
-        echo "Starting the Payment Server"
+        echo "ReStarting the Payment Server"
         ;;
+    *)
+        echo "please enter a valid input"
+        echo "use case: bash 10-conditional.sh start"
 esac
