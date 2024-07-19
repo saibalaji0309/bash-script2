@@ -81,10 +81,10 @@ inp=$1
 if [ "$inp" == "start" ]; then
     echo -e "\e[32m Starting the Payment Server \e[0m"
     exit 0
-elif [ "$inp" == "restart" ]
+else if [ "$inp" == "restart" ]
     echo -e "\e[32m RESucessfully Payment is Done \e[0m"
     exit 1
-elif [ "$inp" == "stop" ]
+else if [ "$inp" == "stop" ]
     echo -e "\e[31m stop the Payment server \e[0m"
     exit 1
 else
