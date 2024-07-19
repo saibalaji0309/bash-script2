@@ -14,3 +14,5 @@ echo $$ #print the pid of the current process
 # for debugging exitcodes usefull too
 exit 1
 echo hai
+# after exicuting check with $?
+# u can see 1 as the error code so u got to know at line 1 error there is a error
