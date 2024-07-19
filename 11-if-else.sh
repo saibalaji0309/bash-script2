@@ -15,6 +15,8 @@ if [ expresion ]; then
     command1
 else 
     command2
+if
+
 
 else-if
 
@@ -69,5 +71,8 @@ if [ "$inp" == "start" ]; then
 else
     echo -e " \e[31m please enter a valid input \e[0m"
     echo -e "\e[35m use case: \e[0m \n \t \e[36m bash 10-conditional.sh start \e[0m"
-    exit 4
+    exit 1
 fi
+
+
+
