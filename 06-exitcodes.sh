@@ -4,6 +4,9 @@
 # 0 to 255 id the range of the codes
 # among all, 0 representaction completed sucessfull .
 # anything in b.\w 1 to 255 represent either partial success or partial failure or complete failure
+# 0       globle sucess
+# 1-255       error
+# 255+        system failure
 # when u run the  ls -ltr cmd after that type $? this will give u 0 mean it exicuted after this again run ls -ltr then after 
 # $? u get 2 : this is u run the commend for 2 times
 echo $? 
