@@ -26,5 +26,5 @@ case $action in
         ;;
     *)
         echo -e " \e[31m please enter a valid input \e[0m"
-        echo -e "use case: \n \tbash 10-conditional.sh start"
+        echo -e "\e[35m use case: \e[0m \n \t \e[36m bash 10-conditional.sh start \e[0m"
 esac
