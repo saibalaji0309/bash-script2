@@ -86,9 +86,9 @@ else if [ "$inp" == "restart" ]
     exit 1
 else if [ "$inp" == "stop" ]
     echo -e "\e[31m stop the Payment server \e[0m"
-    exit 1
+    exit 2
 else
     echo -e " \e[31m please enter a valid input \e[0m"
     echo -e "\e[35m use case: \e[0m \n \t \e[36m bash 10-conditional.sh start \e[0m"
-    exit 2
+    exit 3
 fi
