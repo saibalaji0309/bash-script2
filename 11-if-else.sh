@@ -53,7 +53,7 @@ comment
 # if condition 
 
 inp=$1
-if [inp="start"]; then
+if ["$inp"="start"]; then
     echo -e "\e[32m Starting the Payment Server \e[0m"
     exit 0
 fi
