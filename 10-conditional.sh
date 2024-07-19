@@ -16,15 +16,15 @@ action=$1
 
 case $action in
     start) 
-        echo "Starting the Payment Server"
+        echo -e "\e[32m Starting the Payment Server \e[0m"
         ;;
     stop)
-        echo "Sucessfully Payment is Done"
+        echo -e "\e[32m Sucessfully Payment is Done \e[0m"
         ;;
     restart)
-        echo "ReStarting the Payment Server"
+        echo -e "\e[32m ReStarting the Payment Server \e[0m"
         ;;
     *)
-        echo "please enter a valid input"
+        echo -e" \e[31m please enter a valid input \e[0m"
         echo -e "use case: \n \tbash 10-conditional.sh start"
 esac
