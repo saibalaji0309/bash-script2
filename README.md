@@ -30,8 +30,11 @@ if u want it default don't mention --global both  case
 
 today here we echo
 
+# after a long gap i started again on bash scripting 
 
+# Date : 2025-02-19
 
+today we will work on :
 
 
 
